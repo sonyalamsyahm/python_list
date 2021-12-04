@@ -1,17 +1,18 @@
 # List extend list
-penyanyi = ['Agnes mo', 'Ariel', 'Arman', 'Acha']
-penyanyi_baru = ['Rizal Armada', 'Ivan Seventeen']
-penyanyi.extend(penyanyi_baru)
-print(penyanyi)
+singers = ["Agnes Monica", "Ariel Noah", "Arman"]
+new_singers = ["Rizal Armada", "Ivan Seventeen"]
+
+singers.extend(new_singers)
+print(singers)
 
 # List extend set
-ikan = ['Kakap','Bandeng','Teri']
-ikan_air_tawar = {'Nila','Lele','Bawal'}
-ikan.extend(ikan_air_tawar)
-print(ikan)
+fish = ["Salmon", "Clownfish", "Tuna"]
+other_fish = {"Catfish", "Snapper", "Anchovy"}
+fish.extend(other_fish)
+print(fish)
 
-# List extend Tupple
-nomor = [11, 22, 33, 44]
-nomor_unik = (121, 212, 232, 323)
-nomor.extend(nomor_unik)
-print(nomor)
+# List extend Tuple
+numbers = [11, 22, 33, 44]
+hundreds_numbers = (121, 212, 232, 323)
+numbers.extend(hundreds_numbers)
+print(numbers)
